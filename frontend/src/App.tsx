@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Header from "./components/Header"
-import About from "./pages/About"
-import Home from "./pages/Home"
-import Profile from "./pages/Profile"
-import SignIn from "./pages/SignIn"
-import SignOut from "./pages/SignOut"
+import Header from "./components/Header.tsx"
+import About from "./pages/About.tsx"
+import Home from "./pages/Home.tsx"
+import Profile from "./pages/Profile.tsx"
+import SignIn from "./pages/SignIn.tsx"
+import SignUp from "./pages/SignUp.tsx"
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
         <Route path="/profile" element={<Profile/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/signin" element={<SignIn/>} />
-        <Route path="/signout" element={<SignOut/>} />
+        <Route path="/signup" element={<SignUp/>} />
       </Routes>
     </BrowserRouter>
   )
