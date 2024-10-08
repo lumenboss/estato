@@ -14,7 +14,7 @@ const Header = () => {
                 <li className="hidden sm:inline  text-white hover:underline max-sm:text-sm"> <Link to="/" className="py-2">Home</Link> </li>
                 <li className="hidden sm:inline  text-white hover:underline max-sm:text-sm"> <Link to="/about" className="py-2">About</Link> </li>
                 <li className="hidden sm:inline  text-white hover:underline max-sm:text-sm"> <Link to="/profile" className="py-2">Profile</Link> </li>
-                <li className=" text-white"> <Link to="/signin" className="py-2">Sign in</Link> </li>
+                <li className=" text-white"> <Link to="/auth" className="py-2">Sign in</Link> </li>
 
             </ul>
 
